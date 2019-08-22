@@ -18,4 +18,8 @@ export class PostsComponent implements OnInit {
     this.mensajes = this.dataService.getPosts();
   }
 
+  escuchaClick(id: number) {
+    console.log('Click en: ', id);
+  }
+
 }
