@@ -12,7 +12,8 @@ const routes: Routes = [
   { path: 'check', loadChildren: './pages/check/check.module#CheckPageModule' },
   { path: 'date-time', loadChildren: './pages/date-time/date-time.module#DateTimePageModule' },
   { path: 'fab', loadChildren: './pages/fab/fab.module#FabPageModule' },
-  { path: 'grid', loadChildren: './pages/grid/grid.module#GridPageModule' }
+  { path: 'grid', loadChildren: './pages/grid/grid.module#GridPageModule' },
+  { path: 'infinite-scroll', loadChildren: './pages/infinite-scroll/infinite-scroll.module#InfiniteScrollPageModule' }
 ];
 
 @NgModule({
