@@ -17,7 +17,8 @@ const routes: Routes = [
   { path: 'input', loadChildren: './pages/input/input.module#InputPageModule' },
   { path: 'list', loadChildren: './pages/list/list.module#ListPageModule' },
   { path: 'list-reorder', loadChildren: './pages/list-reorder/list-reorder.module#ListReorderPageModule' },
-  { path: 'loading', loadChildren: './pages/loading/loading.module#LoadingPageModule' }
+  { path: 'loading', loadChildren: './pages/loading/loading.module#LoadingPageModule' },
+  { path: 'modal', loadChildren: './pages/modal/modal.module#ModalPageModule' }
 ];
 
 @NgModule({
