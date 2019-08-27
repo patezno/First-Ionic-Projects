@@ -21,7 +21,8 @@ const routes: Routes = [
   { path: 'modal', loadChildren: './pages/modal/modal.module#ModalPageModule' },
   { path: 'popover', loadChildren: './pages/popover/popover.module#PopoverPageModule' },
   { path: 'progress-bar', loadChildren: './pages/progress-bar/progress-bar.module#ProgressBarPageModule' },
-  { path: 'refresh', loadChildren: './pages/refresh/refresh.module#RefreshPageModule' }
+  { path: 'refresh', loadChildren: './pages/refresh/refresh.module#RefreshPageModule' },
+  { path: 'searchbar', loadChildren: './pages/searchbar/searchbar.module#SearchbarPageModule' }
 ];
 
 @NgModule({
