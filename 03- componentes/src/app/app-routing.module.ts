@@ -23,7 +23,8 @@ const routes: Routes = [
   { path: 'progress-bar', loadChildren: './pages/progress-bar/progress-bar.module#ProgressBarPageModule' },
   { path: 'refresh', loadChildren: './pages/refresh/refresh.module#RefreshPageModule' },
   { path: 'searchbar', loadChildren: './pages/searchbar/searchbar.module#SearchbarPageModule' },
-  { path: 'segment', loadChildren: './pages/segment/segment.module#SegmentPageModule' }
+  { path: 'segment', loadChildren: './pages/segment/segment.module#SegmentPageModule' },
+  { path: 'slides', loadChildren: './pages/slides/slides.module#SlidesPageModule' }
 ];
 
 @NgModule({
