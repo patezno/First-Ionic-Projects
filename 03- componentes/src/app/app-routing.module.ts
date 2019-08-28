@@ -24,7 +24,8 @@ const routes: Routes = [
   { path: 'refresh', loadChildren: './pages/refresh/refresh.module#RefreshPageModule' },
   { path: 'searchbar', loadChildren: './pages/searchbar/searchbar.module#SearchbarPageModule' },
   { path: 'segment', loadChildren: './pages/segment/segment.module#SegmentPageModule' },
-  { path: 'slides', loadChildren: './pages/slides/slides.module#SlidesPageModule' }
+  { path: 'slides', loadChildren: './pages/slides/slides.module#SlidesPageModule' },
+  { path: 'tabs', loadChildren: './pages/tabs/tabs.module#TabsPageModule' }
 ];
 
 @NgModule({
