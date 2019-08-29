@@ -21,12 +21,10 @@ export class Tab1Page {
 
   scan() {
     this.barcodeScanner.scan().then(barcodeData => {
-      console.log('Barcode data', barcodeData);
       if (!barcodeData.cancelled) {
         this.dataLocal.guardarRegistro(barcodeData.format, barcodeData.text);
       }
      }).catch(err => {
-         console.log('Error', err);
          this.dataLocal.guardarRegistro('QRCode', 'https://finofilipino.org/');
      });
   }
