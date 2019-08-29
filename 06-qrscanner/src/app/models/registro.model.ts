@@ -17,7 +17,7 @@ export class Registro {
         const inicioTexto = this.text.substr(0, 4);
         console.log('Tipo', inicioTexto);
 
-        switch(inicioTexto) {
+        switch (inicioTexto) {
             case 'http':
                 this.type = 'http';
                 this.icon = 'globe';
