@@ -25,7 +25,7 @@ export class Tab1Page {
         this.dataLocal.guardarRegistro(barcodeData.format, barcodeData.text);
       }
      }).catch(err => {
-         this.dataLocal.guardarRegistro('QRCode', 'https://finofilipino.org/');
+         this.dataLocal.guardarRegistro('QRCode', 'geo:40.73151796986687,-74.06087294062502');
      });
   }
 
